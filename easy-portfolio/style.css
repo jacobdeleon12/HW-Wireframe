@@ -1,0 +1,80 @@
+body{
+    background: #777777;
+    width: 960px;
+    overflow: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0 auto;
+    
+}
+
+
+
+header{
+    background: white;
+    width: 100%;
+    font-size: 25px;
+    text-align: center;
+    height: 75px;
+    
+    
+}
+
+nav{
+    background: white;
+    width: 100%;
+    font-size: 25px;
+    text-align: center;
+    height: 75px;
+}
+
+#left-column{
+    background: white;
+    width: 45%;
+    height: 350px;
+    text-align: center;
+    font-size: 25px;
+    
+}
+
+#left-column article{
+    float: center;
+    background: #777777;
+    border: 15px solid white;
+}
+
+#left-column article p{
+    background: white;
+    border: 15px solid #777777;
+    height: 25px;
+
+}
+
+#aside{
+    float: right;
+    background: white;
+    height: 350px;
+    width: 45%;    
+    
+
+}
+    
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+footer{
+    background: white;
+    width: 100%;
+    font-size: 25px;
+    text-align: center;
+    height: 75px;
+}
