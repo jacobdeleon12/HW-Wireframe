@@ -34,41 +34,59 @@ nav{
     text-align: center;
     font-size: 25px;
     
+    
 }
 
-#left-column article{
+#left-section{
     float: center;
     background: #777777;
     border: 15px solid white;
 }
 
-#left-column article p{
+.article{
+    background: #777777;
+    height: 275px;
+    border: 5px solid #777777;
+    margin: 10px 10px;
+    margin-top: 10px;
+}
+
+.inline{
     background: white;
-    border: 15px solid #777777;
-    height: 25px;
+    border: 10px solid #777777;
+    width: 93%;
+    margin-left: 5px;
+    margin-right: 5px;
+
 
 }
 
-#aside{
+.paragraph { 
+    background: white;
+    border: 10px solid #777777;
+    width: 93%;
+    margin-left: 5px;
+    margin-right: 5px;
+    
+
+}
+
+
+#right-column{
     float: right;
     background: white;
     height: 350px;
     width: 45%;    
+    text-align: center;
+    font-size: 25px;
     
 
 }
     
- 
-
-
-
-
-
-
-
-
-
-
+.clearfix{
+    display: block;
+    clear: both;
+}
 
 
 footer{
